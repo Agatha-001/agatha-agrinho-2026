@@ -25,3 +25,10 @@ function responder(correta){
     }
 
 }
+ // Mensagem ao carregar a galeria
+
+window.addEventListener("load", () => {
+    console.log(
+        "Galeria de imagens IA carregada com sucesso!"
+    );
+});
